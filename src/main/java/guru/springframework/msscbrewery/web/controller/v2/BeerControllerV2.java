@@ -2,6 +2,7 @@ package guru.springframework.msscbrewery.web.controller.v2;
 
 import guru.springframework.msscbrewery.services.v2.BeerServiceV2;
 import guru.springframework.msscbrewery.web.model.v2.BeerDtoV2;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
@@ -10,7 +11,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.UUID;
 
 /**
